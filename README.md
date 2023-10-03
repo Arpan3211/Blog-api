@@ -23,7 +23,10 @@ with this api endpoint we will get the all the posts data available in database
 ```http
   GET /api/posts
 ```
-EX: https://blog-nqs.onrender.com/api/posts/651986cb41c0ba679da9aee3
+EX: https://blog-nqs.onrender.com/api/posts/
+
+
+
 
 ### Get posts by id
 
