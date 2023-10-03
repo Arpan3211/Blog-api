@@ -15,11 +15,11 @@ const router = express.Router();
 
 
 // All Routes with validation 
-router.get("/", GetAllPosts);
-router.post("/", postValidationRules, validate, newPost);
-router.get('/latest', authPage, getLatestPost);
-router.get("/:id", GetPostsById);
-router.put("/:id", putValidationRules, validate, updatePosts);
+router.get("/", GetAllPosts); //
+router.post("/", postValidationRules, validate, newPost);//
+router.get('/latest', authPage, getLatestPost); //
+router.get("/:id", GetPostsById); //
+router.put("/:id", putValidationRules, validate, updatePosts); //
 router.delete("/:id", deletePost);
 
 export default router;
