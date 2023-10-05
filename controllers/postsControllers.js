@@ -82,7 +82,6 @@ export const deletePost = async (req, res) => {
     }
 
     res.status(204).send();
-    deletion;
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Internal Server Error" });

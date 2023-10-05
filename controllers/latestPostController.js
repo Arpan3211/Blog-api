@@ -22,6 +22,8 @@ export const getLatestPost = async (req, res) => {
     res.json(latestPosts);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: "somthing is wrong sir ji" });
+    res.status(500).json({ message: "Internal server error" });
   }
 };
+
+
